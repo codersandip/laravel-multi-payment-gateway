@@ -1,5 +1,5 @@
 {
-    "name": "sandiptawhare/laravel-multi-payment-gateway",
+    "name": "codersandip/laravel-multi-payment-gateway",
     "description": "A unified payment gateway wrapper for Indian-focused gateways (Razorpay, PayU, Stripe, Cashfree).",
     "type": "library",
     "license": "MIT",
