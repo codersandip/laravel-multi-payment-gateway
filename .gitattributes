@@ -1,0 +1,11 @@
+/tests export-ignore
+/.github export-ignore
+/phpunit.xml export-ignore
+/phpunit.result.cache export-ignore
+/vendor export-ignore
+/composer.lock export-ignore
+/artisan export-ignore
+/*.md export-ignore
+!README.md
+!CHANGELOG.md
+!LICENSE.md
