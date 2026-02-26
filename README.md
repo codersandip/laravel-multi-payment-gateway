@@ -19,7 +19,7 @@ A unified, production-ready payment gateway package for Indian-focused gateways 
 You can install the package via Composer:
 
 ```bash
-composer require vendorname/laravel-multi-payment-gateway
+composer require sandiptawhare/laravel-multi-payment-gateway
 ```
 
 Publish the configuration file and migrate the database:
