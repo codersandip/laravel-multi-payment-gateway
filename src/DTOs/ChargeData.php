@@ -1,8 +1,8 @@
 <?php
 
-namespace VendorName\MultiPayment\DTOs;
+namespace Codersandip\MultiPayment\DTOs;
 
-use VendorName\MultiPayment\Enums\Currency;
+use Codersandip\MultiPayment\Enums\Currency;
 use InvalidArgumentException;
 
 class ChargeData

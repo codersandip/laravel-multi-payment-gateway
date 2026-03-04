@@ -1,6 +1,6 @@
 <?php
 
-namespace VendorName\MultiPayment\Models;
+namespace Codersandip\MultiPayment\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

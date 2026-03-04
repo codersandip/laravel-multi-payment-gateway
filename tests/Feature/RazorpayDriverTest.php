@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\MultiPayment\Tests\Feature;
+namespace Codersandip\MultiPayment\Tests\Feature;
 
-use VendorName\MultiPayment\Tests\TestCase;
-use VendorName\MultiPayment\Facades\MultiPayment;
+use Codersandip\MultiPayment\Tests\TestCase;
+use Codersandip\MultiPayment\Facades\MultiPayment;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Event;
-use VendorName\MultiPayment\Events\PaymentSuccess;
+use Codersandip\MultiPayment\Events\PaymentSuccess;
 
 class RazorpayDriverTest extends TestCase
 {

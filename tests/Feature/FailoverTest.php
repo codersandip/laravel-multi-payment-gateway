@@ -1,11 +1,11 @@
 <?php
 
-namespace VendorName\MultiPayment\Tests\Feature;
+namespace Codersandip\MultiPayment\Tests\Feature;
 
-use VendorName\MultiPayment\Tests\TestCase;
-use VendorName\MultiPayment\Facades\MultiPayment;
+use Codersandip\MultiPayment\Tests\TestCase;
+use Codersandip\MultiPayment\Facades\MultiPayment;
 use Illuminate\Support\Facades\Http;
-use VendorName\MultiPayment\Exceptions\PaymentGatewayException;
+use Codersandip\MultiPayment\Exceptions\PaymentGatewayException;
 
 class FailoverTest extends TestCase
 {

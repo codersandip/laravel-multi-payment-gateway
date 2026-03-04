@@ -1,10 +1,10 @@
 <?php
 
-namespace VendorName\MultiPayment\Http\Controllers;
+namespace Codersandip\MultiPayment\Http\Controllers;
 
 use Illuminate\Http\Request;
-use VendorName\MultiPayment\Facades\MultiPayment;
-use VendorName\MultiPayment\Exceptions\PaymentGatewayException;
+use Codersandip\MultiPayment\Facades\MultiPayment;
+use Codersandip\MultiPayment\Exceptions\PaymentGatewayException;
 
 class WebhookController
 {

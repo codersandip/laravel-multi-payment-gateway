@@ -1,6 +1,6 @@
 <?php
 
-namespace VendorName\MultiPayment\Enums;
+namespace Codersandip\MultiPayment\Enums;
 
 enum PaymentStatus: string
 {

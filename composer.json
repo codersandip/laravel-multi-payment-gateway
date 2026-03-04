@@ -20,21 +20,21 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\MultiPayment\\": "src/"
+            "Codersandip\\MultiPayment\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\MultiPayment\\Tests\\": "tests/"
+            "Codersandip\\MultiPayment\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\MultiPayment\\MultiPaymentServiceProvider"
+                "Codersandip\\MultiPayment\\MultiPaymentServiceProvider"
             ],
             "aliases": {
-                "MultiPayment": "VendorName\\MultiPayment\\Facades\\MultiPayment"
+                "MultiPayment": "Codersandip\\MultiPayment\\Facades\\MultiPayment"
             }
         }
     },

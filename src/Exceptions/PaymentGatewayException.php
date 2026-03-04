@@ -1,6 +1,6 @@
 <?php
 
-namespace VendorName\MultiPayment\Exceptions;
+namespace Codersandip\MultiPayment\Exceptions;
 
 use Exception;
 

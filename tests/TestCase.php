@@ -1,9 +1,9 @@
 <?php
 
-namespace VendorName\MultiPayment\Tests;
+namespace Codersandip\MultiPayment\Tests;
 
 use Orchestra\Testbench\TestCase as Orchestra;
-use VendorName\MultiPayment\MultiPaymentServiceProvider;
+use Codersandip\MultiPayment\MultiPaymentServiceProvider;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 
 abstract class TestCase extends Orchestra

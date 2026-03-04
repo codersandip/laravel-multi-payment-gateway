@@ -1,6 +1,6 @@
 <?php
 
-namespace VendorName\MultiPayment;
+namespace Codersandip\MultiPayment;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Route;
@@ -42,12 +42,12 @@ class MultiPaymentServiceProvider extends ServiceProvider
         $this->loadViewsFrom(__DIR__.'/../resources/views', 'multi-payment');
 
         Route::macro('paymentWebhooks', function (string $uri) {
-            Route::post("$uri/{gateway}", '\\VendorName\\MultiPayment\\Http\\Controllers\\WebhookController');
+            Route::post("$uri/{gateway}", '\\Codersandip\\MultiPayment\\Http\\Controllers\\WebhookController');
         });
 
         if ($this->app->runningInConsole()) {
             $this->commands([
-                \VendorName\MultiPayment\Console\Commands\ReconcilePendingPaymentsCommand::class,
+                \Codersandip\MultiPayment\Console\Commands\ReconcilePendingPaymentsCommand::class,
             ]);
         }
     }

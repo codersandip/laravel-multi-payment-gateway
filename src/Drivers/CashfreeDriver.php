@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\MultiPayment\Drivers;
+namespace Codersandip\MultiPayment\Drivers;
 
 use Illuminate\Support\Facades\Http;
-use VendorName\MultiPayment\Contracts\PaymentContract;
-use VendorName\MultiPayment\Traits\FormatsResponse;
-use VendorName\MultiPayment\Exceptions\PaymentGatewayException;
-use VendorName\MultiPayment\DTOs\ChargeData;
+use Codersandip\MultiPayment\Contracts\PaymentContract;
+use Codersandip\MultiPayment\Traits\FormatsResponse;
+use Codersandip\MultiPayment\Exceptions\PaymentGatewayException;
+use Codersandip\MultiPayment\DTOs\ChargeData;
 
 class CashfreeDriver implements PaymentContract
 {

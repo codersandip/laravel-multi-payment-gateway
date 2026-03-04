@@ -1,10 +1,10 @@
 <?php
 
-namespace VendorName\MultiPayment\Console\Commands;
+namespace Codersandip\MultiPayment\Console\Commands;
 
 use Illuminate\Console\Command;
-use VendorName\MultiPayment\Models\PaymentTransaction;
-use VendorName\MultiPayment\Facades\MultiPayment;
+use Codersandip\MultiPayment\Models\PaymentTransaction;
+use Codersandip\MultiPayment\Facades\MultiPayment;
 use Illuminate\Support\Facades\Log;
 use Exception;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace VendorName\MultiPayment\Traits;
+namespace Codersandip\MultiPayment\Traits;
 
 trait FormatsResponse
 {

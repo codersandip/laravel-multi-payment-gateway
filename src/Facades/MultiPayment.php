@@ -1,6 +1,6 @@
 <?php
 
-namespace VendorName\MultiPayment\Facades;
+namespace Codersandip\MultiPayment\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

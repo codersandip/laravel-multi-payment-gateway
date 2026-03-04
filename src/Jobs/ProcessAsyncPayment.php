@@ -1,13 +1,13 @@
 <?php
 
-namespace VendorName\MultiPayment\Jobs;
+namespace Codersandip\MultiPayment\Jobs;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Queue\SerializesModels;
-use VendorName\MultiPayment\Facades\MultiPayment;
+use Codersandip\MultiPayment\Facades\MultiPayment;
 use Illuminate\Support\Facades\Log;
 use Exception;
 

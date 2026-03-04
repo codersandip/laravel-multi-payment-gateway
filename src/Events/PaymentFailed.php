@@ -1,6 +1,6 @@
 <?php
 
-namespace VendorName\MultiPayment\Events;
+namespace Codersandip\MultiPayment\Events;
 
 use Illuminate\Foundation\Events\Dispatchable;
 use Illuminate\Queue\SerializesModels;

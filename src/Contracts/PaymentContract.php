@@ -1,16 +1,16 @@
 <?php
 
-namespace VendorName\MultiPayment\Contracts;
+namespace Codersandip\MultiPayment\Contracts;
 
 interface PaymentContract
 {
     /**
      * Charge a payment
      *
-     * @param array|\VendorName\MultiPayment\DTOs\ChargeData $data
+     * @param array|\Codersandip\MultiPayment\DTOs\ChargeData $data
      * @return array
      */
-    public function charge(array|\VendorName\MultiPayment\DTOs\ChargeData $data): array;
+    public function charge(array|\Codersandip\MultiPayment\DTOs\ChargeData $data): array;
 
     /**
      * Refund a transaction

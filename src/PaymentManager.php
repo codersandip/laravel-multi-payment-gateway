@@ -1,20 +1,20 @@
 <?php
 
-namespace VendorName\MultiPayment;
+namespace Codersandip\MultiPayment;
 
 use Illuminate\Support\Manager;
 use Illuminate\Support\Facades\Log;
-use VendorName\MultiPayment\Contracts\PaymentContract;
-use VendorName\MultiPayment\Drivers\RazorpayDriver;
-use VendorName\MultiPayment\Drivers\PayUDriver;
-use VendorName\MultiPayment\Drivers\StripeDriver;
-use VendorName\MultiPayment\Drivers\CashfreeDriver;
-use VendorName\MultiPayment\Exceptions\PaymentGatewayException;
-use VendorName\MultiPayment\Events\PaymentSuccess;
-use VendorName\MultiPayment\Events\PaymentFailed;
-use VendorName\MultiPayment\Jobs\ProcessAsyncPayment;
-use VendorName\MultiPayment\DTOs\ChargeData;
-use VendorName\MultiPayment\Models\PaymentTransaction;
+use Codersandip\MultiPayment\Contracts\PaymentContract;
+use Codersandip\MultiPayment\Drivers\RazorpayDriver;
+use Codersandip\MultiPayment\Drivers\PayUDriver;
+use Codersandip\MultiPayment\Drivers\StripeDriver;
+use Codersandip\MultiPayment\Drivers\CashfreeDriver;
+use Codersandip\MultiPayment\Exceptions\PaymentGatewayException;
+use Codersandip\MultiPayment\Events\PaymentSuccess;
+use Codersandip\MultiPayment\Events\PaymentFailed;
+use Codersandip\MultiPayment\Jobs\ProcessAsyncPayment;
+use Codersandip\MultiPayment\DTOs\ChargeData;
+use Codersandip\MultiPayment\Models\PaymentTransaction;
 use Exception;
 
 class PaymentManager extends Manager implements PaymentContract
