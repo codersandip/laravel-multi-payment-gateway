@@ -25,7 +25,7 @@ composer require codersandip/laravel-multi-payment-gateway
 Publish the configuration file and migrate the database:
 
 ```bash
-php artisan vendor:publish --provider="VendorName\MultiPayment\MultiPaymentServiceProvider" --tag="config"
+php artisan vendor:publish --provider="Codersandip\MultiPayment\MultiPaymentServiceProvider" --tag="config"
 php artisan migrate
 ```
 
@@ -47,7 +47,7 @@ In `config/multi-payment.php`, you can set the default driver, failover drivers,
 ### 1. Basic Charge
 
 ```php
-use VendorName\MultiPayment\Facades\MultiPayment;
+use Codersandip\MultiPayment\Facades\MultiPayment;
 
 $response = MultiPayment::charge([
     'amount' => 500,
@@ -79,8 +79,8 @@ The package fires standard events whenever a gateway successfully completes an A
 To listen to these events, register listeners in `EventServiceProvider`:
 
 ```php
-use VendorName\MultiPayment\Events\PaymentSuccess;
-use VendorName\MultiPayment\Events\PaymentFailed;
+use Codersandip\MultiPayment\Events\PaymentSuccess;
+use Codersandip\MultiPayment\Events\PaymentFailed;
 
 protected $listen = [
     PaymentSuccess::class => [
@@ -97,7 +97,7 @@ protected $listen = [
 Thanks to Laravel's Manager pattern, extending this package with any custom gateway is trivial. Inside your `AppServiceProvider` boot method:
 
 ```php
-use VendorName\MultiPayment\Facades\MultiPayment;
+use Codersandip\MultiPayment\Facades\MultiPayment;
 use App\Payment\CustomGatewayDriver;
 
 MultiPayment::extend('custom_gateway', function ($app) {
